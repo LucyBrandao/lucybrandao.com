@@ -1,0 +1,119 @@
+// app global css in SCSS form
+
+// * {
+//     background: #dde1e7;
+// }
+
+.body--light {
+    background: #dde1e7;
+}
+
+body.body--dark {
+    background: $grey-10;
+    input[type="checkbox"] {
+        border: 5px solid $grey-10;
+        box-shadow: inset -3px -3px 7px #ffffffa6, inset 3px 3px 5px rgba(94, 104, 121, 0.512);
+    }
+    input[type="checkbox"]::before {
+        background-color: $grey-10;
+    }
+    .foto, .btn-link, .email {
+        color: $grey-4;
+    }
+}
+
+.foto {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 38px;
+	height: 360px;
+	width: 360px;
+	border-radius: 50%;
+	box-shadow: -3px -3px 7px #ffffffa6, 3px 3px 5px rgba(94, 104, 121, 0.512);
+	position: relative;
+}
+
+.foto:after {
+	content: '';
+	position: absolute;
+	height: 80%;
+	width: 80%;
+	background-color: transparent;
+	border-radius: 50%;
+	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.671);
+}
+
+.btn-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 38px;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	box-shadow: -3px -3px 7px #ffffffa6, 3px 3px 5px rgba(94, 104, 121, 0.512);
+	position: relative;
+}
+
+.btn-link:hover {
+	box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px rgba(94, 104, 121, 0.471);
+}
+
+.email {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 18px;
+	height: 60px;
+	width: 360px;
+	border-radius: 50px;
+	box-shadow: inset -3px -3px 7px #ffffffa6, inset 3px 3px 5px rgba(94, 104, 121, 0.512);
+	position: relative;
+}
+
+input[type="checkbox"] {
+    width: 160px;
+    height: 80px;
+    position: relative;
+    -webkit-appearance: none;
+    border-radius: 40px;
+    border: 5px solid #dde1e7;
+    cursor: pointer;
+    outline: none;
+    box-shadow: inset -3px -3px 7px #ffffffa6, inset 3px 3px 5px rgba(94, 104, 121, 0.512);
+}
+
+input[type="checkbox"]::before,
+input[type="checkbox"]::after {
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: 0.3s ease;
+}
+
+input[type="checkbox"]::before {
+    width: 50px;
+    height: 50px;
+    background-color: #dde1e7;
+    left: 15px;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffffa6, 3px 3px 5px rgba(94, 104, 121, 0.512);
+}
+
+input[type="checkbox"]:checked::before {
+    left: 85px;
+}
