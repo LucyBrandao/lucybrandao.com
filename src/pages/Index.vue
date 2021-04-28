@@ -8,10 +8,10 @@
       <div class="flex flex-center q-my-lg">
         <div class="q-mx-md foto"><span>Lorem Ipsum</span></div>
       </div>
-      <div class="flex q-my-md">
-        <a href="#" class="q-mx-md btn-link"><span><i class="fab fa-github-alt"></i></span></a>
-        <a href="#" class="q-mx-md btn-link"><span><i class="fab fa-linkedin-in"></i></span></a>
-        <a href="#" class="q-mx-md btn-link"><span><i class="fab fa-instagram"></i></span></a>
+      <div class="flex flex-center q-my-md">
+        <a href="https://github.com/LucyBrandao" target="_blank" class="q-mx-md btn-link"><span><i class="fab fa-github-alt"></i></span></a>
+        <a href="https://www.linkedin.com/in/lucy-brandao/" target="_blank" class="q-mx-md btn-link"><span><i class="fab fa-linkedin-in"></i></span></a>
+        <a href="https://www.instagram.com/lucebrandao/" target="_blank" class="q-mx-md btn-link"><span><i class="fab fa-instagram"></i></span></a>
       </div>
       <div class="flex flex-center q-my-lg">
         <div class="q-mx-md email"><span>lucyjbrandao@gmail.com</span></div>
